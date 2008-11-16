@@ -1,7 +1,10 @@
 Pango
 =====
 
-FIXME
+Pango is a library for laying out and rendering text, with an emphasis on
+internationalization. Pango can be used anywhere that text layout is needed,
+but using Pango in conjunction with L<Cairo> and/or L<Gtk2> provides a complete
+solution with high quality text handling and graphics rendering.
 
 To discuss gtk2-perl, ask questions and flame/praise the authors,
 join gtk-perl-list@gnome.org at lists.gnome.org.
