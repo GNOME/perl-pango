@@ -2,8 +2,6 @@
  * Copyright (c) 2005 by the gtk2-perl team (see the file AUTHORS)
  *
  * Licensed under the LGPL, see LICENSE file for more information.
- *
- * $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/xs/PangoCairo.xs,v 1.13 2008/01/07 19:54:50 kaffeetisch Exp $
  */
 
 #include "pango-perl.h"

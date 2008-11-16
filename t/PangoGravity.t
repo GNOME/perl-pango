@@ -4,8 +4,6 @@ use warnings;
 use lib qw(t/inc);
 use PangoTestHelper tests => 4;
 
-# $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/t/PangoGravity.t,v 1.2 2007/06/17 12:55:56 kaffeetisch Exp $
-
 SKIP: {
   skip "PangoGravity", 4
     unless Pango->CHECK_VERSION (1, 16, 0);

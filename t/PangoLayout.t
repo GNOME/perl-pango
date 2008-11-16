@@ -4,8 +4,6 @@ use warnings;
 use lib qw(t/inc);
 use PangoTestHelper need_gtk => 1, tests => 71;
 
-# $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/t/PangoLayout.t,v 1.21 2008/05/20 19:31:42 kaffeetisch Exp $
-
 my $label = Gtk2::Label -> new("Bla");
 my $context = $label -> create_pango_context();
 

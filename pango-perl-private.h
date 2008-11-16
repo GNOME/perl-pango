@@ -17,8 +17,6 @@
  * Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307  USA.
  *
  * THIS IS A PRIVATE HEADER FOR USE ONLY IN Pango ITSELF.
- *
- * $Id$
  */
 
 #ifndef _PANGO_PERL_PRIVATE_H_

@@ -4,8 +4,6 @@ use warnings;
 use lib qw(t/inc);
 use PangoTestHelper need_gtk => 1, tests => 7;
 
-# $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/t/PangoFontset.t,v 1.1 2004/04/19 19:20:52 kaffeetisch Exp $
-
 my $label = Gtk2::Label -> new("Bla");
 my $context = $label -> create_pango_context();
 my $font = Pango::FontDescription -> from_string("Sans 12");

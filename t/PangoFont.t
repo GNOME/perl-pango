@@ -4,8 +4,6 @@ use warnings;
 use lib qw(t/inc);
 use PangoTestHelper need_gtk => 1, tests => 57;
 
-# $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/t/PangoFont.t,v 1.14 2007/09/15 14:33:00 kaffeetisch Exp $
-
 my $description = Pango::FontDescription -> new();
 isa_ok($description, "Pango::FontDescription");
 

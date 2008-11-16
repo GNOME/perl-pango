@@ -4,8 +4,6 @@ use warnings;
 use lib qw(t/inc);
 use PangoTestHelper tests => 202;
 
-# $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/t/PangoAttributes.t,v 1.5 2007/07/22 21:43:45 kaffeetisch Exp $
-
 #
 # pango_color_parse(), pango_color_to_string()
 #

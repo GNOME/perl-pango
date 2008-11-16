@@ -2,8 +2,6 @@
  * Copyright (c) 2003 by the gtk2-perl team (see the file AUTHORS)
  *
  * Licensed under the LGPL, see LICENSE file for more information.
- *
- * $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/xs/PangoFontset.xs,v 1.2 2004/06/04 20:45:00 muppetman Exp $
  */
 
 #include "pango-perl.h"

@@ -4,8 +4,6 @@ use warnings;
 use lib qw(t/inc);
 use PangoTestHelper tests => 48;
 
-# $Id: PangoMatrix.t,v 1.2 2007/06/17 12:55:56 kaffeetisch Exp $
-
 SKIP: {
   skip("PangoMatrix is new in 1.6", 44)
     unless (Pango -> CHECK_VERSION(1, 6, 0));

@@ -2,8 +2,6 @@
  * Copyright (c) 2008 by the gtk2-perl team (see the file AUTHORS)
  *
  * Licensed under the LGPL, see LICENSE file for more information.
- *
- * $Id$
  */
 
 #include "pango-perl.h"

@@ -4,8 +4,6 @@ use warnings;
 use lib qw(t/inc);
 use PangoTestHelper tests => 6;
 
-# $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/t/PangoTabs.t,v 1.7 2004/09/13 21:07:34 kaffeetisch Exp $
-
 SKIP: {
   skip("PangoTabs was broken prior to 1.3.3", 6)
     unless (Pango -> CHECK_VERSION(1, 4, 0));

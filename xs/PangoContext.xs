@@ -15,9 +15,8 @@
  * License along with this library; if not, write to the 
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330, 
  * Boston, MA  02111-1307  USA.
- *
- * $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/xs/PangoContext.xs,v 1.16 2007/06/17 12:55:57 kaffeetisch Exp $
  */
+
 #include "pango-perl.h"
 
 MODULE = Pango::Context	PACKAGE = Pango::Context	PREFIX = pango_context_

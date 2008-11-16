@@ -4,8 +4,6 @@ use warnings;
 use lib qw(t/inc);
 use PangoTestHelper need_gtk => 1, tests => 15;
 
-# $Id$
-
 my $label = Gtk2::Label -> new("Bla");
 
 my $context = $label -> create_pango_context();

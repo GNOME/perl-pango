@@ -4,8 +4,6 @@ use warnings;
 use lib qw(t/inc);
 use PangoTestHelper need_gtk => 1, tests => 7;
 
-# $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/t/PangoRenderer.t,v 1.7 2008/03/10 20:54:36 kaffeetisch Exp $
-
 SKIP: {
   skip("PangoRenderer is new in 1.8", 5)
     unless (Pango -> CHECK_VERSION(1, 8, 0));

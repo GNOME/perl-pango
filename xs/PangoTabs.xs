@@ -2,8 +2,6 @@
  * Copyright (c) 2003 by the gtk2-perl team (see the file AUTHORS)
  *
  * Licensed under the LGPL, see LICENSE file for more information.
- *
- * $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/xs/PangoTabs.xs,v 1.11 2007/12/16 18:31:16 kaffeetisch Exp $
  */
 #include "pango-perl.h"
 

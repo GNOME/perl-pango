@@ -15,8 +15,6 @@
  * License along with this library; if not, write to the 
  * Free Software Foundation, Inc., 59 Temple Place - Suite 330, 
  * Boston, MA  02111-1307  USA.
- *
- * $Header: /cvsroot/gtk2-perl/gtk2-perl-xs/Gtk2/xs/PangoScript.xs,v 1.3 2005/07/11 22:39:21 kaffeetisch Exp $
  */
 
 #include "pango-perl.h"
