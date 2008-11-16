@@ -1,5 +1,10 @@
 2008-11-16  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
+	* NEWS
+	* lib/Pango.pm: Release 1.210.
+
+2008-11-16  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
 	* README: Add small introductory paragraph.
 
 2008-11-16  Torsten Schoenfeld  <kaffeetisch@gmx.de>

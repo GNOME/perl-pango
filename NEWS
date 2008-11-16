@@ -1,4 +1,6 @@
-Overview of changes in Pango 1.190
+Overview of changes in Pango 1.210
 ==================================
 
-* Initial release.
+* Initial standalone release.
+* Add an example demonstrating how to use Pango in conjunction with Cairo and
+  Gtk2.
