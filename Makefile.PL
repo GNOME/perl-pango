@@ -14,9 +14,6 @@
 # You should have received a copy of the GNU Library General Public License
 # along with this library; if not, write to the Free Software Foundation, Inc.,
 # 59 Temple Place - Suite 330, Boston, MA 02111-1307 USA.
-#
-# $Id$
-#
 
 BEGIN { require 5.008; }
 
@@ -31,7 +28,7 @@ use Cwd;
 our %build_reqs = (
 	'perl-ExtUtils-Depends'   => '0.300',
 	'perl-ExtUtils-PkgConfig' => '1.030',
-	'perl-Glib'               => '1.200', # FIXME: 1.22
+	'perl-Glib'               => '1.210', # FIXME: 1.22
 	'perl-Cairo'              => '1.000',
 	'pango'                   => '1.0.0',
 );
@@ -113,24 +110,6 @@ __EOW__
 	$have_cairo = 1;
 }
 
-=for FIXME
-
-#
-# generate the constants wrappers
-#
-my @constants_lists =
-	Glib::MakeHelper->select_files_by_version ('constants', @pango_version);
-my $constants_file = File::Spec->catfile ('build', 'constants.xs');
-Gtk2::CodeGen->generate_constants_wrappers (
-	prefix => 'Pango',
-	lists => \@constants_lists,
-	xs_file => $constants_file,
-	header => 'pango-perl.h',
-        export_tag => 'constants');
-push @xs_files, $constants_file;
-
-=cut
-
 #
 # create version macros
 #
@@ -205,9 +184,6 @@ $pango->save_config ('build/IFiles.pm');
 # exports list needed for win32, unused on others
 my @exports = Glib::MakeHelper->read_source_list_file ('pango.exports');
 
-my $configure_requires =
-  Glib::MakeHelper->get_configure_requires_yaml(%PREREQ_PM);
-
 WriteMakefile(
     NAME          => 'Pango',
     VERSION_FROM  => 'lib/Pango.pm',
@@ -218,9 +194,10 @@ WriteMakefile(
     FUNCLIST      => \@exports,
     DL_FUNCS      => { Pango => [] },
 
+    META_MERGE    => { configure_requires => \%PREREQ_PM },
+
     $pango->get_makefile_vars,
 
-    EXTRA_META    => $configure_requires,
 );
 
 #

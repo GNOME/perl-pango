@@ -48,8 +48,9 @@ DEPENDENCIES
 This module requires these other modules and libraries:
 
   perl >= 5.8.0
-  Glib >= 1.200 (Perl module)
-  pango > 1.x (C library)
+  Glib >= 1.210 (Perl module)
+
+  pango >= 1.x (C library)
 
 If pango is as new or newer as 1.10, the Cairo module is also required:
 
