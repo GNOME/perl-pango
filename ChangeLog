@@ -1,5 +1,11 @@
 2008-11-16  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
+	* MANIFEST
+	* examples/cairo-simple.pl (added): Add an example demonstrating
+	how to use Pango in conjunction with Cairo and Gtk2.
+
+2008-11-16  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
 	* AUTHORS
 	* lib/Pango.pm: Update list of authors.
 

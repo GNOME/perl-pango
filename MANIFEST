@@ -2,6 +2,7 @@ AUTHORS
 ChangeLog
 copyright.pod
 doctypes
+examples/cairo-simple.pl
 lib/Pango.pm
 LICENSE
 MAINTAINERS
