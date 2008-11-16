@@ -1,3 +1,18 @@
+2008-11-16  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
+	* AUTHORS
+	* lib/Pango.pm: Update list of authors.
+
+	* lib/Pango.pm: Add some documentation.
+
+	* Makefile.PL: Use META_MERGE instead of EXTRA_META.
+
+	* lib/Pango.pm
+	* Makefile.PL: Remove unused code for handling constants.
+
+	* Makefile.PL
+	* README: Update dependencies.
+
 2008-11-02  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
 	Initial import into GNOME SVN.
