@@ -1,3 +1,9 @@
+2008-11-24  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
+	* t/PangoLayout.t
+	* xs/PangoLayout.xs: Wrap pango_layout_get_baseline.  Patch by
+	Thierry Vignaud.
+
 2008-11-16  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
 	* NEWS

@@ -522,6 +522,12 @@ int pango_layout_get_height (PangoLayout *layout);
 
 #endif
 
+#if PANGO_CHECK_VERSION (1, 22, 0)
+
+int pango_layout_get_baseline (PangoLayout*layout)
+
+#endif
+
 # --------------------------------------------------------------------------- #
 
 MODULE = Pango::Layout	PACKAGE = Pango::LayoutLine	PREFIX = pango_layout_line_

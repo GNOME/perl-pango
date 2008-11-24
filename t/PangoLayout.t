@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use lib qw(t/inc);
-use PangoTestHelper need_gtk => 1, tests => 71;
+use PangoTestHelper need_gtk => 1, tests => 72;
 
 my $label = Gtk2::Label -> new("Bla");
 my $context = $label -> create_pango_context();
@@ -211,6 +211,15 @@ SKIP: {
 
   $layout -> set_height(23);
   is($layout -> get_height(), 23);
+}
+
+SKIP: {
+  skip 'new 1.22 stuff', 0
+    unless Pango->CHECK_VERSION(1, 22, 0);
+
+  my $font = Pango::FontDescription -> from_string('Sans 12');
+  $layout -> set_font_description($font);
+  like($layout -> get_baseline(), $number);
 }
 
 __END__
