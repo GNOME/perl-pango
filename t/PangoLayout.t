@@ -214,7 +214,7 @@ SKIP: {
 }
 
 SKIP: {
-  skip 'new 1.22 stuff', 0
+  skip 'new 1.22 stuff', 1
     unless Pango->CHECK_VERSION(1, 22, 0);
 
   my $font = Pango::FontDescription -> from_string('Sans 12');

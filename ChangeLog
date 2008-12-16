@@ -1,3 +1,7 @@
+2008-12-16  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
+	* t/PangoLayout.t: Fix a skip count.  Patch by Kevin Ryde.
+
 2008-11-24  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
 	* t/PangoLayout.t
