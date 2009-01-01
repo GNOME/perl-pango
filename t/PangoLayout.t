@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 use lib qw(t/inc);
-use PangoTestHelper need_gtk => 1, tests => 72;
+use PangoTestHelper need_gtk => 1, tests => 73;
 
 my $label = Gtk2::Label -> new("Bla");
 my $context = $label -> create_pango_context();
@@ -57,7 +57,12 @@ is($layout -> get_justify(), 1);
 
 my $attributes = $layout -> get_attributes();
 isa_ok($attributes, "Pango::AttrList");
-$layout -> set_attributes($attributes);
+
+my $copy = $attributes -> copy();
+$layout -> set_attributes(undef);
+is($layout -> get_attributes(), undef);
+
+$layout -> set_attributes($copy);
 
 SKIP: {
   skip("[sg]et_auto_dir are new in 1.3.5", 1)
