@@ -1,3 +1,8 @@
+2009-03-08  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
+	* Makefile.PL: Use Glib::MakeMaker to add a precompiled-headers
+	Makefile target that precompiles pango-perl.h.
+
 2009-01-01  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
 	* t/PangoLayout.t
