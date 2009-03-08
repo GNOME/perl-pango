@@ -1,5 +1,10 @@
 2009-03-08  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
+	* NEWS
+	* lib/Pango.pm: Release 1.211.
+
+2009-03-08  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
 	* Makefile.PL: Use Glib::MakeMaker to add a precompiled-headers
 	Makefile target that precompiles pango-perl.h.
 
