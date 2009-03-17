@@ -28,7 +28,7 @@ use Cwd;
 our %build_reqs = (
 	'perl-ExtUtils-Depends'   => '0.300',
 	'perl-ExtUtils-PkgConfig' => '1.030',
-	'perl-Glib'               => '1.212', # FIXME: 1.22
+	'perl-Glib'               => '1.220',
 	'perl-Cairo'              => '1.000',
 	'pango'                   => '1.0.0',
 );

@@ -51,7 +51,7 @@ DEPENDENCIES
 This module requires these other modules and libraries:
 
   perl >= 5.8.0
-  Glib >= 1.210 (Perl module)
+  Glib >= 1.220 (Perl module)
 
   pango >= 1.x (C library)
 
