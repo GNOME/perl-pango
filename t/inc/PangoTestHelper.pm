@@ -2,7 +2,7 @@ package PangoTestHelper;
 
 use Test::More;
 
-my $REQ_GTK2_VERSION = 1.210; # FIXME: 1.22
+my $REQ_GTK2_VERSION = 1.220;
 
 sub import {
   my $class = shift;

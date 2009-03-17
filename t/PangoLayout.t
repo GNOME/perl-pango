@@ -93,7 +93,7 @@ is_deeply($attribute, {
   is_word_start => 1,
   is_word_end => 0,
   is_sentence_boundary =>
-    (Pango -> CHECK_VERSION(1, 21, 1) ? 1 : 0), # FIXME: 1.22
+    (Pango -> CHECK_VERSION(1, 22, 0) ? 1 : 0),
   is_sentence_start => 1,
   is_sentence_end => 0,
   Pango -> CHECK_VERSION(1, 4, 0) ?

@@ -1,3 +1,9 @@
+2009-03-17  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
+	* t/inc/PangoTestHelper.pm
+	* t/PangoLayout.t: Change version checks to refer to stable
+	versions only.
+
 2009-03-08  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
 	* NEWS
