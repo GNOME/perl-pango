@@ -1,3 +1,13 @@
+2009-03-24  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
+	* pango-perl.h
+	* pango-perl-private.h (removed)
+	* xs/PangoAttributes.xs: Clean up a holdover from the split-off:
+	properly declare gtk2perl_pango_attribute_register_custom_type in
+	pango-perl.h so that Gtk2 can use it without having to jump
+	through hoops, and move the one macro that is in use out of
+	pango-perl-private.h which thus becomes empty.
+
 2009-03-17  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
 	* Makefile.PL
