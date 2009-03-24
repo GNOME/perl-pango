@@ -1,5 +1,11 @@
 2009-03-24  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
+	* pango.exports: Fix the list of exported functions so that
+	linking against us works on MSWin32.  Patch by Martin
+	Schlemmer.  (GNOME #576373)
+
+2009-03-24  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
 	* pango-perl.h
 	* pango-perl-private.h (removed)
 	* xs/PangoAttributes.xs: Clean up a holdover from the split-off:
