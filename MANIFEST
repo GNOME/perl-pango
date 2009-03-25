@@ -17,7 +17,6 @@ maps-1.4
 maps-1.6
 maps-1.8
 NEWS
-pango-perl-private.h
 pango-perl.h
 pango.exports
 pango.typemap

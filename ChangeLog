@@ -1,3 +1,7 @@
+2009-03-25  Torsten Schoenfeld  <kaffeetisch@gmx.de>
+
+	* MANIFEST: Remove pango-perl-private.h.
+
 2009-03-24  Torsten Schoenfeld  <kaffeetisch@gmx.de>
 
 	* pango.exports: Fix the list of exported functions so that
