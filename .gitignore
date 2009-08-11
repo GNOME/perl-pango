@@ -1,0 +1,7 @@
+Makefile
+Pango.bs
+blib
+build
+pm_to_blib
+xs/*.o
+xs/*.c
