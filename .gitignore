@@ -1,4 +1,6 @@
 Makefile
+MYMETA.json
+MYMETA.yml
 Pango.bs
 blib
 build
