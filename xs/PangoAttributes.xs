@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2005-2006 by the gtk2-perl team (see the file AUTHORS)
+ * Copyright (c) 2005-2006, 2013 by the gtk2-perl team (see the file AUTHORS)
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Library General Public
