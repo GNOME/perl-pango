@@ -198,6 +198,7 @@ my %meta_merge = (
             homepage    => 'http://gtk2-perl.sourceforge.net',
             x_MailingList =>
                 'https://mail.gnome.org/mailman/listinfo/gtk-perl-list',
+            x_twitter   => 'https://twitter.com/GTKPerl',
             bugtracker  => {
                     web     =>
                     'http://rt.cpan.org/Public/Dist/Display.html?Name=Pango',
