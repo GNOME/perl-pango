@@ -101,11 +101,11 @@ OBTAINING SOURCE FROM THE GNOME.ORG GIT REPO
 Assuming you already have the 'git' command installed on your system, you can
 use the 'git://' protocol:
 
- git clone git://git.gnome.org/perl-Cairo
+ git clone git://git.gnome.org/perl-Pango
 
 Or, read-only access via HTTP:
 
- git clone http://git.gnome.org/browse/perl-Cairo
+ git clone http://git.gnome.org/browse/perl-Pango
 
 To update an existing clone of the source:
 
