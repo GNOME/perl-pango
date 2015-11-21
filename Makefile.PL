@@ -161,7 +161,7 @@ my $libs = $pango_pkgcfg{libs};
 if ($have_cairo) {
 	push @deps, qw/Cairo/;
 	$inc .= $pangocairo_pkgcfg{cflags};
-	$libs .= $pangocairo_pkgcfg{libs};
+	$libs .= ' ' . $pangocairo_pkgcfg{libs};
 }
 
 my @typemaps = map { File::Spec->catfile(cwd(), $_) }
