@@ -8,7 +8,7 @@
   <shortdesc xml:lang="en">Layout and render international text</shortdesc>
   <homepage rdf:resource="https://gtk2-perl.sourceforge.net/" />
   <developer-forum rdf:resource="https://discourse.gnome.org/tag/perl" />
-  <issue-tracker rdf:resource="https://gitlab.gnome.org/GNOME/perl-pango/-/issues/" />
+  <bug-database rdf:resource="https://gitlab.gnome.org/GNOME/perl-pango/-/issues/" />
 
   <maintainer>
     <foaf:Person>
